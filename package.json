@@ -1,18 +1,22 @@
 {
-  "name": "@bloometry/step",
-  "version": "1.0.3",
-  "description": "",
+  "name": "@candour/step",
+  "version": "1.0.10",
+  "author": "Domas Bitvinskas",
+  "description": "Fluid step utility",
   "main": "dist/index.js",
+  "license": "MIT",
+  "homepage": "https://github.com/Nedomas/step",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Nedomas/step.git"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "BABEL_ENV=production babel index.js -d dist"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
+    "@bloometry/fluid": "1.0.9",
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.1",
-    "babel-preset-minify": "^0.3.0",
-    "@bloometry/fluid": "1.0.2"
+    "babel-preset-minify": "^0.3.0"
   }
 }
