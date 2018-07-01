@@ -1,6 +1,6 @@
 {
   "name": "@candour/step",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "author": "Domas Bitvinskas",
   "description": "Fluid step utility",
   "main": "dist/index.js",
@@ -14,7 +14,7 @@
     "build": "BABEL_ENV=production babel index.js -d dist"
   },
   "dependencies": {
-    "@bloometry/fluid": "1.0.9",
+    "@candour/fluid": "^1.0.9",
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "babel-preset-minify": "^0.3.0"
