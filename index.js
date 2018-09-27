@@ -1,5 +1,5 @@
-import fluid from '@candour/fluid';
+import fluid from '@candour/fluid'
 
 export default (n = 1) => {
-  return fluid(n * 10, n * 20);
-};
+  return fluid(n * 16, n * 16 * 1.2)
+}

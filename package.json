@@ -1,6 +1,6 @@
 {
   "name": "@candour/step",
-  "version": "1.0.11",
+  "version": "2.0.0",
   "author": "Domas Bitvinskas",
   "description": "Fluid step utility",
   "main": "dist/index.js",
