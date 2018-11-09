@@ -14,7 +14,9 @@
     "build": "BABEL_ENV=production babel index.js -d dist"
   },
   "dependencies": {
-    "@candour/fluid": "^1.0.9",
+    "@candour/fluid": "^1.0.9"
+  },
+  "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "babel-preset-minify": "^0.3.0"
