@@ -1,6 +1,6 @@
 {
   "name": "candour-step",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "author": "Domas Bitvinskas",
   "description": "Fluid step utility",
   "main": "dist/index.js",
@@ -14,10 +14,11 @@
     "build": "BABEL_ENV=production babel index.js -d dist"
   },
   "dependencies": {
-    "candour-fluid": "^1.0.11"
+    "candour-fluid": "^1.0.12"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "babel-preset-minify": "^0.3.0"
   }

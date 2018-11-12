@@ -1,3 +1,3 @@
 import fluid from 'candour-fluid'
 
-export default (n = 1) => fluid(n * 14, n * 18)
+export default (n = 1, { min = 14, max = 18, ...rest }) => fluid(n * min, n * max, rest)
